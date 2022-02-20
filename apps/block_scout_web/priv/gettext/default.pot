@@ -73,7 +73,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_default_title.html.eex:2
 msgid "%{subnetwork} Explorer - BlockScout"
-msgstr "%{subnetwork} Explorer"
+msgstr "%{subnetwork} Explorer - Erascan"
 
 #, elixir-format
 #: lib/block_scout_web/templates/stakes/_metatags.html.eex:2
@@ -152,7 +152,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_metatags.html.eex:2
 msgid "API for the %{subnetwork} - BlockScout"
-msgstr "API for the %{subnetwork}"
+msgstr "API for the %{subnetwork} - Erascan"
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:124
@@ -1002,30 +1002,30 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/views/transaction_view.ex:214
-msgid "ERA-1155 "
-msgstr ""
+msgid "ERC-1155 "
+msgstr "ERA-1155 "
 
 #, elixir-format
 #: lib/block_scout_web/views/transaction_view.ex:212
-msgid "ERA-20 "
-msgstr ""
+msgid "ETH-20 "
+msgstr "ERA-20 "
 
 #, elixir-format
 #: lib/block_scout_web/views/transaction_view.ex:213
-msgid "ERA-721 "
-msgstr ""
+msgid "ETH-721 "
+msgstr "ERA-721 "
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_token/overview.html.eex:1
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:93 lib/block_scout_web/templates/smart_contract/_functions.html.eex:93
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:133
-msgid "ERA"
-msgstr ""
+msgid "ETH"
+msgstr "ERA"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
-msgid "ERA RPC API Documentation"
-msgstr ""
+msgid "ETH RPC API Documentation"
+msgstr "ERA RPC API Documentation"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_contract/index.html.eex:76
@@ -1101,8 +1101,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:138
-msgid "ERA RPC"
-msgstr ""
+msgid "ETH RPC"
+msgstr "ERA RPC"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_balance_card.html.eex:18
@@ -1112,8 +1112,8 @@ msgstr ""
 #: lib/block_scout_web/templates/layout/app.html.eex:45 lib/block_scout_web/templates/transaction/_pending_tile.html.eex:20
 #: lib/block_scout_web/templates/transaction/_tile.html.eex:37 lib/block_scout_web/templates/transaction/overview.html.eex:411
 #: lib/block_scout_web/views/wei_helpers.ex:78
-msgid "ERA"
-msgstr ""
+msgid "ETH"
+msgstr "ERA"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:211
@@ -1183,8 +1183,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/admin/dashboard/index.html.eex:16
-msgid "For any existing contracts in the database, insert all ABI entries into the contract_methods table. Use this in case you have verified smart contracts before early March 2022 and you want other contracts with the same functions to show those ABI's as candidate matches."
-msgstr ""
+msgid "For any existing contracts in the database, insert all ABI entries into the contract_methods table. Use this in case you have verified smart contracts before early March 2019 and you want other contracts with the same functions to show those ABI's as candidate matches."
+msgstr "For any existing contracts in the database, insert all ABI entries into the contract_methods table. Use this in case you have verified smart contracts before early March 2022 and you want other contracts with the same functions to show those ABI's as candidate matches."
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:34
@@ -1429,8 +1429,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/transaction/overview.html.eex:305
-msgid "List of ERA-1155 tokens created in the transaction."
-msgstr ""
+msgid "List of ERC-1155 tokens created in the transaction."
+msgstr "List of ERA-1155 tokens created in the transaction."
 
 #, elixir-format
 #: lib/block_scout_web/templates/transaction/overview.html.eex:289
@@ -1488,8 +1488,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:49
-msgid "Main Websites"
-msgstr ""
+msgid "Main Networks"
+msgstr "Main Websites"
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_network_selector.html.eex:22
@@ -2062,8 +2062,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_token/overview.html.eex:59
-msgid "Shows the tokens held in the address (includes ERA-20, ERA-721 and ERA-1155)."
-msgstr ""
+msgid "Shows the tokens held in the address (includes ERC-20, ERC-721 and ERC-1155)."
+msgstr "Shows the tokens held in the address (includes ERA-20, ERA-721 and ERA-1155)."
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_token/overview.html.eex:66
@@ -2387,7 +2387,6 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/pending_transaction/index.html.eex:22
 msgid "There are no pending transactions."
-
 msgstr ""
 
 #, elixir-format
@@ -2454,8 +2453,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/index.html.eex:6
-msgid "This API is provided for developers transitioning their applications from Erascan to other explorers. It supports GET and POST requests."
-msgstr ""
+msgid "This API is provided for developers transitioning their applications from Etherscan to BlockScout. It supports GET and POST requests."
+msgstr "This API is provided for developers transitioning their applications from Erascan to other explorers. It supports GET and POST requests."
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:7

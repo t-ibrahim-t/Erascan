@@ -7,29 +7,34 @@ defmodule BlockScoutWeb.LayoutView do
 
   import BlockScoutWeb.AddressView, only: [from_address_hash: 1]
 
-  @issue_url "https://github.com/blockscout/blockscout/issues/new"
+  @issue_url "https://github.com/EraBlockchain/erascan/issues/new"
   @default_other_networks [
     %{
-      title: "POA",
-      url: "https://blockscout.com/poa/core"
+      title: "Eraworld.io",
+      url: "https://eraworld.io"
     },
     %{
-      title: "Sokol",
-      url: "https://blockscout.com/poa/sokol",
+      title: "Erahchain testnet",
+      url: "https://testnet.erascan.io",
       test_net?: true
     },
     %{
-      title: "Gnosis Chain",
-      url: "https://blockscout.com/xdai/mainnet"
+      title: "documentation",
+      url: "https://docs.erachain.io"
     },
     %{
-      title: "Ethereum Classic",
-      url: "https://blockscout.com/etc/mainnet",
+      title: "Mainnet Explorer",
+      url: "https://erascan.io",
       other?: true
     },
     %{
-      title: "RSK",
-      url: "https://blockscout.com/rsk/mainnet",
+      title: "Decentralized Exchange",
+      url: "https://eraswap.finance",
+      other?: true
+    },
+    %{
+      title: "Martketplace",
+      url: "https://eramarket.io",
       other?: true
     }
   ]
@@ -66,7 +71,7 @@ defmodule BlockScoutWeb.LayoutView do
 
   def issue_link(conn) do
     params = [
-      labels: "BlockScout",
+      labels: "Erascan",
       body: issue_body(conn),
       title: subnetwork_title() <> ": <Issue Title>"
     ]
@@ -86,10 +91,6 @@ defmodule BlockScoutWeb.LayoutView do
     *Describe your issue here.*
 
     ### Environment
-    * Elixir Version: #{System.version()}
-    * Erlang Version: #{System.otp_release()}
-    * BlockScout Version: #{version()}
-
     * User Agent: `#{user_agent}`
 
     ### Steps to reproduce

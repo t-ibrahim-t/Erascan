@@ -427,8 +427,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
-msgid "Erascan is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
-msgstr ""
+msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
+msgstr "Erascan is a tool for inspecting and analysing Erachain. A blockchain explorer for Erachain by Erachain Team."
 
 #, elixir-format
 #: lib/block_scout_web/templates/stakes/_stakes_top.html.eex:45

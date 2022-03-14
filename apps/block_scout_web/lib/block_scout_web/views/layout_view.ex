@@ -19,7 +19,7 @@ defmodule BlockScoutWeb.LayoutView do
       test_net?: true
     },
     %{
-      title: "documentation",
+      title: "Documentation",
       url: "https://docs.erachain.io"
     },
     %{

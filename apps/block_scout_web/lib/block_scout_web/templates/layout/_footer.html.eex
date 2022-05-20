@@ -34,11 +34,11 @@
       </div>
 
       <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
-        <h3>BlockScout</h3>
+        <h3>Erascan</h3>
         <ul>
           <li><a href="<%= issue_link(@conn) %>" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Submit an Issue") %></a></li>
-          <li><a href="https://t.me/erachainofficial" rel="noreferrer" class="footer-link"><%= gettext("chat") %></a></li>
-          <li><a href="https://discord.gg/98RjXWRb" rel="noreferrer" class="footer-link"><%= gettext("discord") %></a></li>
+          <li><a href="https://t.me/erachainofficial" rel="noreferrer" class="footer-link"><%= gettext("Chat") %></a></li>
+          <li><a href="https://discord.gg/98RjXWRb" rel="noreferrer" class="footer-link"><%= gettext("Discord") %></a></li>
           <li><a href="https://t.me/erachainofficial" rel="noreferrer" class="footer-link"><%= gettext("Support") %></a></li>
           <li><a href="https://github.com/EraBlockchain/Explorer" rel="noreferrer" class="footer-link"><%= gettext("Contribute") %></a></li>            
         </ul>

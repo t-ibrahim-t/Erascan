@@ -14,7 +14,7 @@ defmodule BlockScoutWeb.LayoutView do
       url: "https://eraworld.io"
     },
     %{
-      title: "Erahchain testnet",
+      title: "Erachain testnet",
       url: "https://testnet.erascan.io",
       test_net?: true
     },
